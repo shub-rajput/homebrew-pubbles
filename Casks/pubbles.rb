@@ -1,6 +1,6 @@
   cask "pubbles" do
-    version "1.4.1"
-    sha256 "30254de59a16b24ceb2efd1c56fea85d902bfeb2a1eefa15453c25fa5302e503"
+    version "1.4.2"
+    sha256 "e0f4b85d6c0e6b3ca9bcb3b930ac63e557dc19e0dfe6f125628899ee82f1766f"
 
     url "https://dl.pubbles.app/mac/#{version}/Pubbles_v#{version}.zip"
     name "Pubbles"
@@ -16,3 +16,4 @@
 
     zap trash: "~/.config/pubbles"
   end
+
